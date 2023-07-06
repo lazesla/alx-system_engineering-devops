@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # HAProxy config file for ssl termination on LB side
 global
 	log /dev/log	local0
