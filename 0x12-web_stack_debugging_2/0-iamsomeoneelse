@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-#a script to run a command as another user
+# script should run the whoami command under the user passed as an argument
+# make sure to try your script by passing different users
+
 sudo -u "$1" whoami
